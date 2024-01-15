@@ -1,16 +1,75 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- <link rel="stylesheet" href="styles.css"> -->
-    <link rel="stylesheet" href="tailwind.css">
+    <link rel="stylesheet" href="tailwind.css" />
 
     <title>Tailwind CSS</title>
-</head>
-<body>
-    <h1 class="text-3xl font-bold underline text-red-500">
-        Hello world
-    </h1>
-</body>
+  </head>
+  <body class="bg-slate-100">
+    <header class="bg-white shadow px-6">
+      <div class="flex justify-between h-16 items-center">
+        <button
+          class="text-slate-500 hover:text-slate-900 transition-colors focus:ring-2"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            stroke="currentColor"
+            width="40"
+            height="40"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M 0 9 L 0 11 L 50 11 L 50 9 Z M 0 24 L 0 26 L 50 26 L 50 24 Z M 0 39 L 0 41 L 50 41 L 50 39 Z"
+            ></path>
+          </svg>
+        </button>
+        <a href="#" class="text-sky-500 hover:text-sky-600"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-8 w-8"
+            stroke="currentColor"
+            fill="none"
+            width="40"
+            height="40"
+            viewBox="0 0 50 50"
+          >
+            <path
+              d="M 24.960938 1.1015625 A 1.0001 1.0001 0 0 0 24.386719 1.3105469 L 1.3867188 19.210938 A 1.0001 1.0001 0 1 0 2.6132812 20.789062 L 4 19.708984 L 4 46 A 1.0001 1.0001 0 0 0 5 47 L 18.832031 47 A 1.0001 1.0001 0 0 0 19.158203 47 L 30.832031 47 A 1.0001 1.0001 0 0 0 31.158203 47 L 45 47 A 1.0001 1.0001 0 0 0 46 46 L 46 19.708984 L 47.386719 20.789062 A 1.0001 1.0001 0 1 0 48.613281 19.210938 L 40.96875 13.261719 A 1.0001 1.0001 0 0 0 41 13 L 41 7 A 1.0001 1.0001 0 0 0 40 6 L 36.099609 6 A 1.0001 1.0001 0 0 0 35.099609 7 L 35.099609 8.6933594 L 25.613281 1.3105469 A 1.0001 1.0001 0 0 0 24.960938 1.1015625 z M 25 3.3671875 L 44 18.154297 L 44 45 L 32 45 L 32 27 A 1.0001 1.0001 0 0 0 31 26 L 19 26 A 1.0001 1.0001 0 0 0 18 27.158203 L 18 45 L 6 45 L 6 18.154297 L 25 3.3671875 z M 37.099609 8 L 39 8 L 39 11.728516 L 37.099609 10.25 L 37.099609 8 z M 20 28 L 30 28 L 30 45 L 20 45 L 20 28 z"
+            ></path></svg
+        ></a>
+        <div>
+          <button
+            class="text-slate-500 hover:bg-sky-600 rounded-full p-1 transition-colors focus:ring-2 hover:text-slate-100 focus:text-slate-100"
+          >
+            <svg
+              class="h-6 w-6"
+              data-slot="icon"
+              fill="none"
+              stroke-width="1.5"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+              ></path>
+            </svg>
+          </button>
+          <button>
+            <img
+              class="h-6 w-6 rounded-full"
+              src="https://ui-avatars.com/api/?name=Victor+Val"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
